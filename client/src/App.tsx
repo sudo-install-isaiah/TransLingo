@@ -5,15 +5,16 @@ import './App.css';
 
 function App() {
 
-    useEffect(() => {
-			axios.get("http://localhost:3002/dogs").then(res => {
-				console.log(res);
-			});
-		}, []);
+  useEffect(() => {
+    axios.get("http://localhost:3002/dogs").then(res => {
+      console.log(res);
+    });
+  }, []);
 
   return (
     <div className="App">
       <header className="App-header">
+        <h1> TransLingo </h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
