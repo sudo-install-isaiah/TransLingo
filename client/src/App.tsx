@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> TransLingo </h1>
+        <h1> BIG BIG BIG </h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/App.tsx BIG BIG BIG </code> and save to reload.
         </p>
         <a
           className="App-link"
